@@ -1,0 +1,4 @@
+
+本地搭建react项目
+npm install -g create-react-app    //搭建官方脚手架
+create-react-app react-project(your project name)  //创建自己的项目名

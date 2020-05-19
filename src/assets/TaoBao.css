@@ -1,0 +1,9 @@
+*{ margin:0; padding:0; list-style:none; font-family: "微软雅黑","张海山锐线体简"}
+#ul1{padding-left:115px;width:240px;margin:50px auto;border:1px solid #E7E7EF;border-left:0;}
+li{height:30px;width:210px}
+a{text-decoration:none;color:#000;padding-right:12px;line-height:30px;}
+a:hover{color:#F75210;}
+.title{font-weight:bold;font-size:14px;}
+.child{font-size:12px;}
+.hot{color:#F75210;}
+.last{border-bottom:1px solid #E7E7EF;}
