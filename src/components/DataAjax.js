@@ -21,9 +21,8 @@ export default class DataAjax extends Component{
   }
   getJqStatic(){
     $.ajax({
-      url:'/data/user.json',
+      url:'./data/user.json',
       success:function (res) {
-        debugger
         console.log(res)   //返回一个html页面
       }
     })
@@ -43,7 +42,7 @@ export default class DataAjax extends Component{
     )*/
 
     fetch(
-      `/data/user.json`
+      `../data/user.json`
     ).then(
       res=>res.json()
     ).then(

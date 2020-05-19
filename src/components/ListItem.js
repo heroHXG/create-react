@@ -18,7 +18,7 @@ export default class ListItem extends Component {
 
 const ListItem=(props) => {
   return (
-    <li>{props.val}</li>
+    <a style={{display: 'flex', marginTop: 10+'px'}}>{props.val}</a>
   );
 };
 
